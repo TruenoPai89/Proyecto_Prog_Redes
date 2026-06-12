@@ -1,0 +1,9 @@
+package com.proyecto_redes.dataStructures;
+
+public interface Queue<E> {
+    void enqueue(E element) ;
+    E dequeue();
+    E front() ;
+    boolean isEmpty();
+    int size();
+}
